@@ -22,7 +22,7 @@ Make sure you have the following installed:
    ```
 3. Install the dependencies:
    ```sh
-   npm install
+   npm install & cd client & npm install
    ```
 
 ## Build
