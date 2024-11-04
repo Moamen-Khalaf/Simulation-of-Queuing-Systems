@@ -20,18 +20,10 @@ Make sure you have the following installed:
    ```sh
    cd simulation_table_analysis
    ```
-3. Install the dependencies:
+3. Install and build the dependencies:
    ```sh
-   npm install & cd client & npm install
+   npm run build
    ```
-
-## Build
-
-To build the project, run:
-
-```sh
-npm run build
-```
 
 ## Run
 
@@ -50,12 +42,3 @@ npm run dev
 ```
 
 This will start the application with `nodemon`, which will automatically restart the server when changes are detected.
-
-## Testing
-
-Currently, there are no tests specified. You can add your tests and update the `test` script in `package.json`.
-
-## Additional Information
-
-- The main entry point of the application is `dist/index.js`.
-- The TypeScript compiler configuration can be found in `tsconfig.json`.
